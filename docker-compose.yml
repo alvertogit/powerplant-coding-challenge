@@ -1,0 +1,8 @@
+# author: alvertogit
+# copyright: 2024
+
+services:
+  api:
+    build: api
+    ports:
+      - 8888:8888

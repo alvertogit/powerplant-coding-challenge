@@ -1,0 +1,36 @@
+[project]
+name = "powerplant-coding-challenge"
+version = "1.0.0"
+authors = [
+    { name="alvertogit" },
+]
+description = "Powerplant coding challenge by alvertogit"
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+
+[project.urls]
+Homepage = "https://github.com/alvertogit/powerplant-coding-challenge/"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = [
+    # pycodestyle
+    "E",
+    "W",
+    # Pyflakes
+    "F",
+    # pyupgrade
+    "UP",
+    # flake8-bugbear
+    "B",
+    # flake8-simplify
+    "SIM",
+    # isort
+    "I",
+]
+ignore = []
